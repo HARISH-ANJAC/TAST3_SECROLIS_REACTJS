@@ -1,0 +1,43 @@
+
+
+.Profile-Detail-card{
+
+    text-align: center;
+    padding: 40px;
+    background-color: #1e1e2e;
+    border-radius:"40px";
+}
+
+
+
+
+
+/* Tablet Screens (768px to 991px) */
+@media (max-width: 991px) and (min-width: 768px) {
+    .Profile-Detail-card{
+
+        text-align: center;
+        padding: 30px;
+        margin: 30px;
+    }
+    
+  }
+  
+  /* Mobile Screens (576px to 767px) */
+  @media (max-width: 767px) and (min-width: 576px) {
+    .Profile-Detail-card{
+        margin: 24px;
+        padding: 28px;
+        }
+    
+  }
+  
+  /* Small Mobile Screens (up to 575px) */
+  @media (max-width: 575px) {
+    .Profile-Detail-card{
+        margin: 22px;
+        padding: 22px;
+       }
+    
+  }
+  
